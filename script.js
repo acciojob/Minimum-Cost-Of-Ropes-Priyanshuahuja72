@@ -1,4 +1,5 @@
 //your code here
+var result = document.getElementById("result");
 function mcr(event)
 {
 	event.preventDefault();
@@ -14,5 +15,5 @@ function mcr(event)
 		cost += res;
 		arr.sort(function(a , b){return a-b});
 	}
-	document.getElementById('result').textContent = cost;
+	result.textContent = cost;
 }
