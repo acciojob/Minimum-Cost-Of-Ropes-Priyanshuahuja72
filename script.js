@@ -15,5 +15,5 @@ function mcr(event)
 		cost += res;
 		arr.sort(function(a , b){return a-b});
 	}
-	result.textContent = cost;
+	result.innerHTML = cost;
 }
